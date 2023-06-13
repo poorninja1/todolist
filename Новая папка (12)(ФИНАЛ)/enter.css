@@ -1,0 +1,124 @@
+.reg { 
+	font-family: Comfortaa;
+	color: rgba(0, 0, 0, 1);
+	height: 30vh;
+	text-align: center;
+	font-size: 500%;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 768px) {
+	.Reg {
+	  font-size: 7vw;
+	  height: 20vh;
+	}
+  }
+  @media screen and (max-width: 480px) {
+	.Reg {
+	  font-size: 5vw;
+	  height: 15vh;
+	}
+	}
+	.akks{
+		text-decoration: none; /* Убирает подчеркивание ссылки */
+		color:rgba(75.00000312924385, 75.00000312924385, 75.00000312924385, 1);
+		font-weight: bold; /* Делает текст жирным */
+	}
+.hui { 
+	color:rgba(75.43749645352364, 75.43749645352364, 75.43749645352364, 1);
+	width:500px;
+	height:157px;
+	position:absolute;
+	top:750px;
+	font-family:Comfortaa;
+	text-align:left;
+	font-size:20px;
+	letter-spacing:0;
+	left: 50%;
+	transform: translateX(-50%);
+	
+}
+.akk { 
+	color:rgba(75.00000312924385, 75.00000312924385, 75.00000312924385, 1);
+	position:absolute;
+	top:850px;
+	font-family:Comfortaa;
+	text-align:left;
+	font-size:20px;
+	letter-spacing:0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.forgot { 
+	color:rgba(75.00000312924385, 75.00000312924385, 75.00000312924385, 1);
+	position:absolute;
+	top:700px;
+	font-family:Comfortaa;
+	text-align:left;
+	font-size:20px;
+	letter-spacing:0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+body {
+	background: #E5E5E5; 
+}
+
+
+.form {
+	position:absolute;
+	top: 300px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 500px;
+	padding: 20px;
+	text-align: center;
+	font-family:Comfortaa;
+  }
+.form h2 {
+	margin-top: 0;
+  }
+  
+.form-group {
+	margin-bottom: 20px;
+	position: relative;
+  }
+  
+.form-group input {
+	width: 100%;
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid #252525;
+	outline: none;
+	font-family:Comfortaa;
+	border-radius: 20px;
+	height:70px;
+  }
+.form-group button {
+	width: 100%;
+	padding: 10px;
+	font-size: 16px;
+	background-color: #A5CE9B;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	height:70px;
+	border-radius: 20px;
+  }
+  
+.form-group button:hover {
+	background-color: green;
+	transform: scale(1.1);
+	transition: transform 0.5s;
+  }
+  @media screen and (max-width: 1px) {
+	.login-form {
+	  width: 90%;
+	}
+  }
+  
+  

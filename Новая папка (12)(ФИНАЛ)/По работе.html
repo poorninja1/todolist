@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDOList81011</title>
+  <link rel="stylesheet" href="Стиль.css" />
+</head>
+<body>
+
+
+
+  <div class="dropdown">
+    <div onclick="myFunction()" class="dropbtn" type="submit">  <img src="menu.png"></div>
+      <div id="myDropdown" class="dropdown-content">
+               <a class="Каталог1" href="По дому.html">По дому</a>
+               <a class="Каталог2" href="ТуДуЛист.html">Основные</a>
+       </div>
+  </div>
+
+    <div class="submitMot" type="submit"> <img src="cat.png"></div>
+  
+
+  <div class="golova"></div>
+  <div class="proflile" type="submit"> <img src="profile.png"></div>
+
+  <div class="todo">
+    <div class="todo__content">
+      <h1 class="todo__title">По работе</h1>
+      <div class="todo__new">
+        <input id="new" type="text" placeholder="Новая задача">
+        <div id="add" class="todo__add">+</div>
+      </div>
+      <div class="todo__tasks-count">
+        <span>Всего задач:</span>
+        <strong id="count">0</strong>
+      </div>
+      <div id="tasks2" class="todo__list"></div>
+    </div>
+  </div>
+  <script src="По работе.js"></script>
+  <script src="мотивация.js"></script>
+  <script src="МенюКаталогов.js"></script>
+</body>
+</html>

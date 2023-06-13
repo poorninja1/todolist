@@ -1,0 +1,56 @@
+body {
+    background: #E5E5E5;
+}
+
+.reg,
+.vhod,
+.osnova {
+    position: absolute;
+    background-size: cover;
+}
+
+.reg,
+.vhod {
+    width: 280px;
+    height: 51px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.reg {
+    top: 753px;
+    background-image: url(images/image_4.png);
+}
+
+.vhod {
+    top: 669px;
+    background-image: url(images/image_3.png);
+}
+
+.reg:hover,
+.vhod:hover {
+    transform: translateX(-50%) scale(1.1);
+	transition: transform 0.5s
+}
+
+.osnova {
+    width: 709px;
+    height: 313px;
+    left: 50%;
+    top: 282px;
+    transform: translateX(-50%);
+    background-image: url(images/image_2.png);
+}
+
+@media only screen and (max-width: 1px) {
+    .reg,
+    .vhod,
+    .osnova {
+        position: static;
+        width: 100%;
+        left: 0;
+        transform: none;
+    }
+}
